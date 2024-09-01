@@ -1,0 +1,69 @@
+body{
+    padding-left: 7vw;
+    padding-right: 7vw;
+    padding-top: 1h;
+
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+header section{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+}
+header .buttons{
+    display: flex;
+    flex-direction: row;
+    width: 22%;
+    justify-content: space-between;
+}
+.buttons button{
+    background-color:hsla(205.9, 48.72%, 38.24%, 1);
+    color: white;
+    border: none;
+    border-radius: 0.6vh;
+    font-weight: bold;
+    height: 4vh;
+}
+.buttons button:hover{
+    background-color:rgb(32, 79, 116);
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+    width: 30%;
+    font-size: smaller;
+    margin-left: 20vw;
+    justify-content: space-between;
+}
+header .logo{
+    height: 8vh;
+    width: fit-content;
+
+}
+select{
+    border: none;
+}
+nav{
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2vh;
+}
+hr{
+    padding: 0;
+    margin: 0;
+}
+nav ul{
+   width: 80%;
+   padding: 0;
+   margin: 0;
+   
+}
